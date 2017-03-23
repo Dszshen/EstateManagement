@@ -27,26 +27,26 @@ License: You must have a valid license purchased only from themeforest(the above
     <meta content="" name="author">
     <!-- BEGIN GLOBAL MANDATORY STYLES-->
     <!--link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all', rel='stylesheet', type='text/css')-->
-    <link href="${request.contextPath}/assets/plugins/fontawesome/css/font-awesome.min.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/plugins/simple-line-icons/css/simple-line-icons.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/plugins/bootstrap/dist/css/bootstrap.min.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/plugins/jquery-uniform/css/uniform.default.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/plugins/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/plugins/jstree/dist/themes/default/style.min.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/plugins/angular-ui-tree/dist/angular-ui-tree.min.css?t=1490268486184" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/plugins/fontawesome/css/font-awesome.min.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/plugins/simple-line-icons/css/simple-line-icons.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/plugins/bootstrap/dist/css/bootstrap.min.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/plugins/jquery-uniform/css/uniform.default.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/plugins/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/plugins/jstree/dist/themes/default/style.min.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/plugins/angular-ui-tree/dist/angular-ui-tree.min.css?t=1490275504031" rel="stylesheet" type="text/css">
     <!-- END GLOBAL MANDATORY STYLES-->
     <!-- BEGIN DYMANICLY LOADED CSS FILES(all plugin and page related styles must be loaded between GLOBAL and THEME css files )-->
     <link id="css_lazyload">
     <!-- END DYMANICLY LOADED CSS FILES-->
     <!-- BEGIN THEME STYLES-->
     <!-- DOC: To use 'rounded corners' style just load 'components-rounded.css' stylesheet instead of 'components.css' in the below style tag-->
-    <link id="style_components" href="${request.contextPath}/assets/css/components.min.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/css/plugins.min.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/css/layouts/layout.min.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link id="style_color" href="${request.contextPath}/assets/css/layouts/themes/darkblue.min.css?t=1490268486184" rel="stylesheet" type="text/css">
-    <link href="${request.contextPath}/assets/css/layouts/custom.min.css?t=1490268486184" rel="stylesheet" type="text/css">
+    <link id="style_components" href="${request.contextPath}/assets/css/components.min.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/css/plugins.min.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/css/layouts/layout.min.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link id="style_color" href="${request.contextPath}/assets/css/layouts/themes/darkblue.min.css?t=1490275504031" rel="stylesheet" type="text/css">
+    <link href="${request.contextPath}/assets/css/layouts/custom.min.css?t=1490275504031" rel="stylesheet" type="text/css">
     <!-- END THEME STYLES-->
-    <link rel="shortcut icon" href="${request.contextPath}/assets/images/favicon.ico?t=1490268486184">
+    <link rel="shortcut icon" href="${request.contextPath}/assets/images/favicon.ico?t=1490275504031">
   </head>
   <!-- END HEAD-->
   <!-- BEGIN BODY-->
@@ -69,7 +69,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- END PAGE SPINNER-->
     <ui-view></ui-view>
     <script>
-      var currTime='1490268486184';
+      var currTime='1490275504031';
       var CONTEXT = '${request.contextPath}';
     </script>
     <!--
@@ -77,41 +77,41 @@ License: You must have a valid license purchased only from themeforest(the above
       script(src='../assets/global/plugins/respond.min.js')
       script(src='../assets/global/plugins/excanvas.min.js')
     -->
-    <script src="${request.contextPath}/assets/plugins/jquery/dist/jquery.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/bootstrap/dist/js/bootstrap.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/blockUI/jquery.blockUI.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/js-cookie/src/js.cookie.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/jquery-uniform/jquery.uniform.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/bootstrap-switch/dist/js/bootstrap-switch.min.js?t=1490268486184" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/jquery/dist/jquery.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/bootstrap/dist/js/bootstrap.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/blockUI/jquery.blockUI.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/js-cookie/src/js.cookie.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/jquery-uniform/jquery.uniform.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/bootstrap-switch/dist/js/bootstrap-switch.min.js?t=1490275504031" type="text/javascript"></script>
     <!-- END CORE JQUERY PLUGINS-->
     <!-- BEGIN CORE ANGULARJS PLUGINS-->
-    <script src="${request.contextPath}/assets/plugins/angular/angular.min.js?t=1490268486184" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular/angular.min.js?t=1490275504031" type="text/javascript"></script>
     <!--script(src='${request.contextPath}/assets/plugins/angular-route/angular-route.min.js', type='text/javascript')-->
-    <script src="${request.contextPath}/assets/plugins/angular-sanitize/angular-sanitize.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/angular-bootstrap/ui-bootstrap.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/angular-touch/angular-touch.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/angular-ui-router/release/angular-ui-router.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/ocLazyLoad/dist/ocLazyLoad.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/angular-bootstrap/ui-bootstrap-tpls.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/angular-bootstrap-switch/dist/angular-bootstrap-switch.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/angular-scroll/angular-scroll.min.js?t=1490268486184" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular-sanitize/angular-sanitize.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular-bootstrap/ui-bootstrap.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular-touch/angular-touch.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular-ui-router/release/angular-ui-router.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/ocLazyLoad/dist/ocLazyLoad.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular-bootstrap/ui-bootstrap-tpls.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular-bootstrap-switch/dist/angular-bootstrap-switch.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular-scroll/angular-scroll.min.js?t=1490275504031" type="text/javascript"></script>
     <!--script(src='${request.contextPath}/assets/plugins/angular-ui-router-tabs/src/ui-router-tabs.js', type='text/javascript')-->
-    <script src="${request.contextPath}/assets/plugins/jstree/dist/jstree.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/ng-js-tree/dist/ngJsTree.min.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/plugins/angular-ui-tree/dist/angular-ui-tree.min.js?t=1490268486184" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/jstree/dist/jstree.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/ng-js-tree/dist/ngJsTree.min.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/plugins/angular-ui-tree/dist/angular-ui-tree.min.js?t=1490275504031" type="text/javascript"></script>
     <!-- END CORE ANGULARJS PLUGINS-->
     <!-- BEGIN APP LEVEL ANGULARJS SCRIPTS-->
     <script id="js_lazyload"></script>
     <!--script(src='${request.contextPath}/assets/js/directives/directives.js', type='text/javascript')-->
     <!-- END APP LEVEL ANGULARJS SCRIPTS-->
     <!-- BEGIN APP LEVEL JQUERY SCRIPTS-->
-    <script src="${request.contextPath}/assets/js/scripts/global/app.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/js/scripts/global/layout.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/js/scripts/global/quick-sidebar.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/js/scripts/global/demo.js?t=1490268486184" type="text/javascript"></script>
-    <script src="${request.contextPath}/assets/js/app.js?t=1490268486184" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/js/scripts/global/app.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/js/scripts/global/layout.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/js/scripts/global/quick-sidebar.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/js/scripts/global/demo.js?t=1490275504031" type="text/javascript"></script>
+    <script src="${request.contextPath}/assets/js/app.js?t=1490275504031" type="text/javascript"></script>
     <!--script(src='${request.contextPath}/assets/js/directives/directives.js', type='text/javascript')-->
     <!-- END APP LEVEL JQUERY SCRIPTS-->
     <!-- END JAVASCRIPTS-->

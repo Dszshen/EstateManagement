@@ -12,7 +12,7 @@
 
     <!--<context:component-scan base-package="com.bs3.manage,com.bs3.manage.service,com.bs3.manage.controller" />-->
     <!-- 自动扫描@Controller注入为bean -->
-    <context:component-scan base-package="com.bs3.manage.controller.**.**" />
+    <context:component-scan base-package="com.estateManagement.manage.controller.**.**" />
 
     <!-- 以下为SpringMVC配置 -->
     <mvc:annotation-driven>

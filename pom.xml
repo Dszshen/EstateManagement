@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.bs3.learning</groupId>
-  <artifactId>bs3</artifactId>
+  <groupId>com.EstateManagement.learning</groupId>
+  <artifactId>EstateManagement</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>bs3 Maven Webapp</name>
+  <name>EstateManagement Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <!--环境配置-->
@@ -271,7 +271,7 @@
 
   </dependencies>
   <build>
-    <finalName>bs3</finalName>
+    <finalName>EstateManagement</finalName>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
@@ -285,7 +285,7 @@
       </resource>
     </resources>
     <!--class文件的输出路径-->
-    <outputDirectory>target/bs3</outputDirectory>
+    <outputDirectory>target/EstateManagement</outputDirectory>
     <plugins>
 
       <plugin>
@@ -294,7 +294,7 @@
         <version>${jetty.version}</version>
         <configuration>
          <!-- <webAppSourceDirectory>${project.basedir}/target/assets</webAppSourceDirectory>-->
-          <!--<war>target/bs3.war</war>-->
+          <!--<war>target/EstateManagement.war</war>-->
           <stopKey>alpha</stopKey>
           <stopPort>9099</stopPort>
           <!--热部署，扫描时间，如果启动热部署，静态文件资源是会被锁定并且不可更改的，如果这里启动会跟grunt watch监控有冲突-->
@@ -310,7 +310,7 @@
               <contextPath>/assets</contextPath>
             </contextHandler>
           </contextHandlers>
-          <!--<classesDirectory>${project.basedir}/target/bs3</classesDirectory>-->
+          <!--<classesDirectory>${project.basedir}/target/EstateManagement</classesDirectory>-->
           <!--扫描额外的文件-->
           <!--<scanTargets>
             <scanTarget>src/main/java</scanTarget>

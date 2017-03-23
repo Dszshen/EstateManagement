@@ -66,7 +66,7 @@
         <!--<property name="persistenceProvider" ref="persistenceProvider"/>-->
         <property name="jpaVendorAdapter" ref="jpaVendorAdapter"/>
         <property name="jpaDialect" ref="jpaDialect"/>
-        <property name="packagesToScan" value="com.bs3.manage.bean"/>
+        <property name="packagesToScan" value="com.estateManagement.manage.bean"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
@@ -94,7 +94,7 @@
     </bean>
 
     <!-- springdata重要配置：启用扫描并自动创建代理的功能  base-package -->
-    <jpa:repositories base-package="com.bs3.manage"  transaction-manager-ref="transactionManager" entity-manager-factory-ref="entityManagerFactory"/>
+    <jpa:repositories base-package="com.estateManagement.manage"  transaction-manager-ref="transactionManager" entity-manager-factory-ref="entityManagerFactory"/>
     <!--<jpa:repositories base-package="com.zhang.work.dao" />-->
 
     <!--Hibernate对Jpa的实现-->
@@ -139,7 +139,7 @@
     &lt;!&ndash; Spring aop事务管理 &ndash;&gt;
     <aop:config>
         &lt;!&ndash; 配置切入点 &ndash;&gt;
-        <aop:pointcut id="transactionPointcut" expression="execution(* com.bs3.manage.service..*Impl.*(..))" />
+        <aop:pointcut id="transactionPointcut" expression="execution(* com.estateManagement.manage.service..*Impl.*(..))" />
         &lt;!&ndash; 指定在txAdvice切入点应用txAdvice事务增强处理 &ndash;&gt;
         <aop:advisor pointcut-ref="transactionPointcut"
                      advice-ref="transactionAdvice" />

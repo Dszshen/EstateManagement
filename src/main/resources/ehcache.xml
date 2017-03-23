@@ -19,7 +19,7 @@
     <!-- Special objects setting. -->
 
     <cache
-            name="com.bs3.manage.bean.User"
+            name="com.estateManagement.manage.bean.User"
             maxElementsInMemory="2"
             memoryStoreEvictionPolicy="LRU"
             eternal="true"
