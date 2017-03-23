@@ -1,0 +1,33 @@
+{
+  "boss":false,
+  "sub":true,
+  "laxbreak":true,
+  "laxcomma":true,
+  "regexp":true,
+  "asi": false,
+  "browser": true,
+  "loopfunc":true,
+  "expr":true,
+  "node": true,
+  "es5": true,
+  "esnext": true,
+  "bitwise": true,
+  "curly": true,
+  "immed": true,
+  "latedef": false,
+  "eqeqeq": true,
+  "eqnull": true,
+  "newcap": true,
+  "noarg": true,
+  "undef": true,
+  "proto": true,
+  "strict": true,
+  "smarttabs": true,
+  "maxerr":10,
+  "shadow":"outer",
+  "globals": {
+    "angular": true,
+    "$": true,
+    "_": true
+  }
+}
