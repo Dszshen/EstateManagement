@@ -1,2 +1,2 @@
-# EstateManagement
-这是一个物业管理系统
+# XX管理系统
+这是一个XX管理系统
